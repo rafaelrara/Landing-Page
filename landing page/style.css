@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#principal{
+    margin: 0 20% 0% 20%;
+    
+}
+center {
+  border-bottom: 5px double orange;
+}
+
+.logo_ceap {
+  
+  height: 150px; 
+  padding: 15px; 
+
+}
+
+.logo_parcerias {
+height: 80px;
+
+}
+
+.texto_ceap {
+  text-align: center;
+  color: rgb(68, 48, 241);
+  font-size: 25px;
+
+}
+h2 {
+ font-size: 25px;
+  color: rgb(61, 55, 65);
+}
+h3 {
+  font-size: 25px;
+  color: rgb(68, 48, 241);
+  text-align: center;
+}
+
+h4 {
+  font-size: 25px;
+  color: rgb(68, 48, 241);
+  text-align: center;
+
+}
+.text_span {
+  font-size: 17px;
+
+}
+
+
+#login{
+    border: 10px double orange;
+    margin-left: 35%;
+    margin-top: 1%;
+    margin-right: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5% 6% 5%;
+    box-sizing: border-box;
+}
+
+.lgn{
+    padding: 2%;
+    margin-bottom: 10%;
+}
+
+.icone{
+  padding: 24px;
+  width: 50px;
+  height: 50px;
+}
+
+footer{
+display: flex;
+justify-content: space-between;
+}
+
+#rodape{
+margin-top: 10%;
+margin-bottom: 5%;
+background-color: rgb(20, 20, 193);
+border: 5px solid rgb(20, 20, 193);
+height: 100px;
+}
+
+.textofooter{
+color: #FFF;
+font-size: 16px;
+margin-right: 24px;
+}
+
+.img1footer{
+margin-left: 24px;
+}
+
+/**Tooltips**/
+
+.tooltip {
+  font-size: 20px;
+    width: 1000px;
+    text-align: left;
+    color: rgb(61, 55, 65);
+  }
+
+  .tooltip:hover {
+    color: orange;
+    text-decoration: none;
+
+  }
+
+  li.tooltip span {
+    cursor: pointer;
+    text-align: center;
+    visibility: hidden;
+    background-color: rgb(248, 247, 247);
+    color: #FFF;
+    padding: 5px 10px;
+  }
+
+  li.tooltip span:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 2%;
+    margin-left: -8px;
+    width: 0; height: 0;
+    border-bottom: 8px solid #000;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+  }
+  li:hover.tooltip span {
+    visibility: visible;
+    color: orange;
+    opacity: 0.9;
+    top: 30px;
+    right: 50%;
+    left: 50%;
+    z-index: 999; 
+  }
